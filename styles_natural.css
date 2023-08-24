@@ -1,0 +1,309 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.iphone {
+    width: 340px;
+    height: 650px;
+    background-color: #3c3a3a;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(51, 49, 49, 0.3);
+}
+
+.iphone-notch {
+    width: 60px;
+    height: 20px;
+    background-color: #a19d9d;
+    position: absolute;
+    top: 20px;
+    left: calc(50% - 30px);
+    border-radius: 50%;
+}
+
+.iphone-screen {
+    width: 282px;
+    height: 600px;
+    background-color: #fff;
+    position: absolute;
+    top: 31px;
+    left: calc(50% - 140px);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.iphone-button {
+    width: 50px;
+    height: 50px;
+    background-color: #a19d9d;
+    position: absolute;
+    bottom: 20px;
+    top: 91.5%;
+    left: calc(50% - 30px);
+    border-radius: 50%;
+}
+
+/* Comienzan los rectangulos*/
+
+.rectangulo-horizontal {
+    width: 300px;
+    height: 60px;
+    background-color: #3c3a3a;
+    border-radius: 7%;
+    position: absolute;
+    top: 91%; 
+    left: 0%; 
+}
+
+.rectangulo-horizontal1 {
+    width: 300px;
+    height: 18px;
+    background-color: #2c2b2bcb;
+    border-radius: 1%;
+    position: absolute;
+    top: 0.02%; 
+    left: 0%; 
+}
+
+.rectangulo-horizontal-entrada {
+    width: 300px;
+    height: 35px;
+    background-color: #7653099d;
+    border-radius: 1%;
+    position: absolute;
+    top: 3.10%; 
+    left: 0%; 
+}
+
+.rectangulo-horizontal-final {
+    width: 265px;
+    height: 50px;
+    background-color: #3735356a;
+    border-radius: 10% 12%;
+    position: absolute;
+    top: 80%; 
+    left: 2.5%; 
+}
+
+/*Insersion por imagenes*/
+
+.img {
+    width: 21px; 
+    height: 14px; 
+    position: absolute;
+    top: 50%; 
+    left: 6%;
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+    filter: invert(100%);
+}
+
+.img1-wifi {
+    width: 12px; 
+    height: 12px; 
+    position: absolute;
+    top: 50%; 
+    left: 13%;
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+    filter: invert(100%);
+}
+
+.img2-cargador {
+    width: 25px; 
+    height: 22px; 
+    position: absolute;
+    top: 50%; 
+    left: 85%;
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+}
+
+.img3-menu {
+    width: 29px; 
+    height: 29px; 
+    position: absolute;
+    top: 50%; 
+    left: 8%;
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+}
+
+.img4-bolsacompra {
+    width: 25px; 
+    height: 25px; 
+    position: absolute;
+    top: 50%; 
+    left: 82%;
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+}
+
+.texto-tigo {
+    color: #000000; /* Color del texto en blanco */
+    font-size: 11px;
+    font-weight: bolder;
+    position: absolute;
+    top: 50%; 
+    left: 21%; 
+    transform: translate(-50%, -50%); 
+    z-index: 2; 
+    filter: invert(100%);
+}
+
+.texto-inicio {
+    color: #000000; /* Color del texto en blanco */
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%; /* Posición vertical en el centro del rectángulo grande */
+    left: 47%; /* Posición horizontal en el centro del rectángulo grande */
+    transform: translate(-50%, -50%); /* Centrar el texto en el centro del rectángulo grande */
+    z-index: 2; /* Colocar el texto por encima de los rectángulos horizontales */
+}
+
+.horario {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    font-weight: bold;
+    filter: invert(100%);
+}
+
+.rectangulo-horizontal-inicio {
+    width: 265px;
+    height: 180px;
+    background-color: #3735356a;
+    border-radius: 5%;
+    position: absolute;
+    top: 9.5%; 
+    left: 2.5%; 
+}
+
+.img5-pizzainicio {
+    width: 265px;
+    height: 180px;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    border-radius: 5%;
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+}
+
+/*Resto de diseno de la pagina entradas*/
+
+.rectangulo-horizontal-e1 {
+    width: 300px;
+    height: 100px;
+    background-color: #d1710b95;
+    border-radius: 5%;
+    position: absolute;
+    top: 40%; 
+    left: 0%; 
+}
+
+.rectangulo-horizontal-e2 {
+    width: 300px;
+    height: 100px;
+    background-color: #d1710b95;
+    border-radius: 5%;
+    position: absolute;
+    top: 57%; 
+    left: 0%; 
+}
+
+.rectangulo-horizontal-e3 {
+    width: 300px;
+    height: 100px;
+    background-color: #d1710b95;
+    border-radius: 5%;
+    position: absolute;
+    top: 74%; 
+    left: 0%; 
+}
+
+.img6-nachos {
+    width: 110px;
+    height: 100px;
+    position: absolute;
+    top: 48.4%; 
+    left: 20%;
+    border-radius: 5%;
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+}
+
+.img7-crepa {
+    width: 110px;
+    height: 100px;
+    position: absolute;
+    top: 48.4%; 
+    left: 20%;
+    border-radius: 5%;
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+}
+
+.img8-pollo {
+    width: 110px;
+    height: 97px;
+    position: absolute;
+    top: 48.95%; 
+    left: 20%;
+    border-radius: 5%;
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+}
+
+.texto-nacho {
+    color: #000000; /* Color del texto en blanco */
+    font-size: 14px;
+    font-weight: bolder;
+    position: absolute;
+    top: 40%; 
+    left: 61%; 
+    transform: translate(-50%, -50%); 
+    z-index: 2; 
+}
+
+.texto-crepa {
+    color: #000000; /* Color del texto en blanco */
+    font-size: 14px;
+    font-weight: bolder;
+    position: absolute;
+    top: 40%; 
+    left: 61%; 
+    transform: translate(-50%, -50%); 
+    z-index: 2; 
+}
+
+.texto-pollo {
+    color: #000000; /* Color del texto en blanco */
+    font-size: 14px;
+    font-weight: bolder;
+    position: absolute;
+    top: 40%; 
+    left: 61%; 
+    transform: translate(-50%, -50%); 
+    z-index: 2; 
+}
+
+.img9-envio {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 80%; 
+    left: 85%;
+    border-radius: 5%;
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+}
